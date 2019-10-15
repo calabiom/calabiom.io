@@ -1,0 +1,187 @@
+body{
+    background-color: #42b883;
+   /* background: url(tilda-gradient.png); */
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+}
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+#home{
+    height: 100vh;
+    text-align: left;
+}
+
+
+h1{
+    color: whitesmoke;
+    margin: auto;
+    text-align: left;
+    font-size: 70px;
+}
+
+.btn{
+    margin: 0 auto;
+}
+
+#experience h3{
+    color: white;
+    font-size: 60px;
+}
+
+#skills-1 i{
+    padding-left: 10px;
+}
+
+#skills-2 i{
+    padding-left:15px;
+}
+#dev-icon{
+    font-size: 120px;
+
+}
+
+.btn-primary{
+    color: white;
+    background-color: #42b883;
+}
+
+#taco-bell-card{
+    background: rgba(120, 47, 239, .9);
+    color: white;
+    text-align: center;
+}
+
+#appjam-card{
+    background: rgba(100, 199, 255, .9);
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    height: 80%;
+}
+
+#reps-card{
+    background: rgba(0, 100, 164, .9);
+    color: white;
+    text-align: center;
+}
+
+#league-card{
+    background: rgba(255, 210, 0, .9);
+    color: white;
+    text-align: center;
+}
+
+#spop-card{
+    /*background: rgba(20, 113, 85, .9);*/
+    background: url(images/tilda-gradient.png);
+    color: white;
+    text-align: center;
+}
+
+#amp-card{
+    background: rgba(133, 46, 186, .9);
+    color: white;
+    text-align: center;
+}
+
+#ics-card{
+    background: rgba(254, 158, 118, .9);
+    color: white;
+    text-align: center;
+}
+
+.intro h5, h2{
+    text-align: left;
+    color: white;
+}
+
+#home .home-photo{
+    display: block;
+     margin: auto;
+  width: 450px;
+  height: 450px;
+    border-radius: 50%;
+}
+
+
+inner-section{
+    position: absolute;
+    text-align: center;
+}
+
+#experience{
+
+}
+
+#proj-card{
+    background-color: floralwhite;
+}
+
+#projects h2{
+    color: black;
+}
+
+.process-manager-os{
+    height: 80%;
+}
+.card-horizontal{
+    display: flex;
+    flex: 1 1 auto;
+}
+
+#leadership{
+}
+#creative h5{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+#footer{
+    text-align: center;
+}
+
+#footer h5{
+    color: white;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background: rgba(66,184,131, .5);
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: black;
+}
+
+.topnav a.active:hover {
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: white;
+  font-size: 20px;
+  padding: 14px 16px;
+
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
