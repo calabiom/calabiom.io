@@ -124,6 +124,10 @@ inner-section{
     color: black;
 }
 
+#projects b{
+    background-color: yellow;
+}
+
 .process-manager-os{
     height: 80%;
 }
